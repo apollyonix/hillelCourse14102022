@@ -8,27 +8,6 @@ public class Example {
   public static void main(String[] args) {
     System.out.println("ex1");
 
-    //    int intValue = 10;
-    //
-    //    int numOfProducts;
-    //
-    //    long l = 10L;
-    //
-    //    float f = 1.2f;
-    //    double d = 1.2;
-    //
-    //    char c = 10;
-    //    char c1 = 'A';
-    //
-    //    boolean b = true;
-    //
-    //    intValue = 20;
-    //
-    //    intValue = intValue+ 5;
-    //    intValue += 5;
-
-    //    System.out.println(7/2);
-    //    System.out.println(7%2);
 
     int a = 1;
     System.out.println("" + a++ + "");
