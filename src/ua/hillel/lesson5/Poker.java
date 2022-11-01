@@ -7,7 +7,7 @@ import java.util.Random;
  */
 
 public class Poker {
-  private static int noOfCards = 54;
+  private static int noOfCards = 52;
   private static int noOfPlayers = 4;
 
   private static String[] cards = new String[noOfCards];
