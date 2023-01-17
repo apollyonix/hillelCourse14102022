@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1" >
+    <test name="Test 1" parallel="classes" thread-count="4">
+<!--        <parameter name="userValue" value="${user}"/>-->
+<!--        <parameter name="passValue" value="${user}"/>-->
+<!--        <parameter name="roleValue" value="${user}"/>-->
+<!--        <packages>-->
+<!--            <package name="ua.hillel.tests.testng.parTests"/>-->
+<!--        </packages>-->
+
+        <classes>
+            <class name="ua.hillel.tests.restTests.PetRestTest"/>
+        </classes>
+    </test>
+</suite>

@@ -11,7 +11,7 @@ public class Lesson3_IF {
 
 //    boolean b1 = true, b2 = false, b3=true;
 
-    String strValue = getStringValue();
+    String strValue = new Lesson3_IF().getStringValue();
     String innerValue = "";
 
     if (strValue != null && !strValue.isEmpty()) {
@@ -27,7 +27,7 @@ public class Lesson3_IF {
   }
 
 
-  private static String getStringValue() {
+  private String getStringValue() {
     return "";
   }
 }

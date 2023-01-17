@@ -15,5 +15,7 @@ public class PhoneExample {
 
     IPhone iPhone2 = new IPhone();
     iPhone2.receiveSms("hello java");
+
+
   }
 }
